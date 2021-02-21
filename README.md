@@ -1,2 +1,2 @@
 # pearllettersbyumonika.github.io
-Ez a saját weboldalom
+Ez a saját weboldalam
