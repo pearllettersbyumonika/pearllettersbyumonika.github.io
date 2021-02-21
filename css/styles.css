@@ -1,0 +1,187 @@
+html{
+  height: 100%;
+
+}
+
+body{
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #ecdccb;
+}
+
+nav{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 22px
+}
+
+h1,h2,h3,h4{
+font-family: 'Kaushan Script', cursive;
+font-weight: normal;
+}
+
+h1{
+  font-size: 150px;
+  margin: 0;
+}
+
+h2{
+  font-size: 100px;
+  margin: 10px 0px 50px;
+}
+
+.works h2 {
+  color: #255e64;
+}
+
+.myteam h2{
+  color: #16736e;
+}
+
+.img-margin{
+  margin-bottom: 40px;
+}
+
+.contact h2{
+  color: #16736e;
+}
+
+h3{
+  font-size: 50px;
+}
+
+.works h3{
+  color: #16736e;
+}
+
+.myteam h3 {
+  color: #b57d75;
+  margin: 10px 0 50px 0;
+  line-height: 100%;
+}
+
+h4{
+  font-size: 32px;
+  color: #fff;
+  background-color: #b28c79;
+  display:inline-block;
+  margin: 0;
+  padding: 4px;
+}
+
+.works a{
+  letter-spacing: 3px;
+  color:  #53c3c4;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p{
+  line-height: 145%;
+  font-size: 17px;
+}
+
+.navigation{
+  text-align: center;
+}
+
+.navigation li{
+display: inline-block;
+margin: 0 50px;
+}
+
+.navigation li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.left-col,.right-col{
+  color: #ffffff;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-col {
+  background-color: #255e64;
+  color: #ffffff;
+  text-align: right;
+}
+
+.right-col {
+  background-color: #b28c79;
+}
+
+.top-container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.scroll{
+  color: #255e64;
+  text-align: center;
+}
+
+.works{
+  color: #16736e
+}
+
+.works-img{
+  position: relative;
+  width: 100%
+}
+
+.works h4{
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.works h4.right-aligned{
+  right: 0;
+}
+
+.extra-gutters{
+  padding: 0 60px;
+}
+
+.right-aligned{
+  text-align: right;
+}
+
+img{
+  max-width: 100%;
+}
+
+footer{
+  background-color:  #75e3dd;
+  min-height: 220px;
+  background-image: url(../img/socialmedia.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  color: #ffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px
+}
+
+.social-icon{
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.social-icons-container{
+  text-align: center;
+}
